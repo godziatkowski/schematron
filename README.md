@@ -1,0 +1,1 @@
+#Sample schematron to test schematrons and xml files
