@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<valueSets>
+   <valueSet xmlns:extPL="http://www.csioz.gov.pl/xsd/extPL/r2"
+             xmlns:ffv13="urn:hitinn.eu:ffv13"
+             xmlns:cda="urn:hl7-org:v3"
+             xmlns:pharm="urn:ihe:pharm"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xmlns:xs="http://www.w3.org/2001/XMLSchema"
+             id="2.16.840.1.113883.3.4424.13.11.5"
+             name="RodzajLeku"
+             effectiveDate="2017-10-26T00:00:00"
+             statusCode="final"
+             displayName="Rodzaj leku"
+             versionLabel="1.2.2">
+         <desc language="pl-PL">Klasyfikacja recept ze względu na rodzaj leku: lek gotowy, czy recepturowy</desc>
+         <desc language="en-US">Classification of drug prescriptions according to the drug category: proprietary drug or magistral formula</desc>
+         <sourceCodeSystem id="2.16.840.1.113883.3.4424.13.5.1"
+                        identifierName="Polskie klasyfikatory HL7 v3"/>
+         <conceptList>
+            <concept code="G"
+                  codeSystem="2.16.840.1.113883.3.4424.13.5.1"
+                  codeSystemName="PolskieKlasyfikatoryHL7v3"
+                  displayName="Lek gotowy"
+                  level="1"
+                  type="L"/>
+            <concept code="R"
+                  codeSystem="2.16.840.1.113883.3.4424.13.5.1"
+                  codeSystemName="PolskieKlasyfikatoryHL7v3"
+                  displayName="Lek recepturowy"
+                  level="1"
+                  type="L"/>
+            <concept code="S"
+                  codeSystem="2.16.840.1.113883.3.4424.13.5.1"
+                  codeSystemName="PolskieKlasyfikatoryHL7v3"
+                  displayName="Środek spożywczy specjalnego przeznaczenia żywieniowego"
+                  level="1"
+                  type="L"/>
+            <concept code="W"
+                  codeSystem="2.16.840.1.113883.3.4424.13.5.1"
+                  codeSystemName="PolskieKlasyfikatoryHL7v3"
+                  displayName="Wyrób medyczny"
+                  level="1"
+                  type="L"/>
+         </conceptList>
+      </valueSet>
+</valueSets>

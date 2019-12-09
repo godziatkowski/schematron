@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<valueSets>
+   <valueSet xmlns:extPL="http://www.csioz.gov.pl/xsd/extPL/r2"
+             xmlns:ffv13="urn:hitinn.eu:ffv13"
+             xmlns:cda="urn:hl7-org:v3"
+             xmlns:pharm="urn:ihe:pharm"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xmlns:xs="http://www.w3.org/2001/XMLSchema"
+             id="2.16.840.1.113883.3.4424.13.11.16"
+             name="PoziomOdplatnosciZaLeki"
+             effectiveDate="2014-06-06T00:00:00"
+             statusCode="final"
+             displayName="Poziom odpłatności za leki"
+             versionLabel="0.9.9">
+         <desc language="pl-PL">Poziom odpłatności za leki refundowane</desc>
+         <desc language="en-US">Payment level for reimbursed drug</desc>
+         <sourceCodeSystem id="2.16.840.1.113883.3.4424.11.1.1"
+                        identifierName="Poziomy odpłatności za leki refundowane"/>
+         <conceptList>
+            <concept code="B"
+                  codeSystem="2.16.840.1.113883.3.4424.11.1.1"
+                  codeSystemName="POZ_ODL_REF_LEK"
+                  displayName="bezpłatne"
+                  level="0"
+                  type="L"/>
+            <concept code="R"
+                  codeSystem="2.16.840.1.113883.3.4424.11.1.1"
+                  codeSystemName="POZ_ODL_REF_LEK"
+                  displayName="ryczałt"
+                  level="0"
+                  type="L"/>
+            <concept code="30%"
+                  codeSystem="2.16.840.1.113883.3.4424.11.1.1"
+                  codeSystemName="POZ_ODL_REF_LEK"
+                  displayName="30% limitu"
+                  level="0"
+                  type="L"/>
+            <concept code="50%"
+                  codeSystem="2.16.840.1.113883.3.4424.11.1.1"
+                  codeSystemName="POZ_ODL_REF_LEK"
+                  displayName="50% limitu"
+                  level="0"
+                  type="L"/>
+            <concept code="100%"
+                  codeSystem="2.16.840.1.113883.3.4424.11.1.1"
+                  codeSystemName="POZ_ODL_REF_LEK"
+                  displayName="pełnopłatne"
+                  level="0"
+                  type="L"/>
+         </conceptList>
+      </valueSet>
+</valueSets>

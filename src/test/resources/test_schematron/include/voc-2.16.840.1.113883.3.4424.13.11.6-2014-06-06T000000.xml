@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<valueSets>
+   <valueSet xmlns:extPL="http://www.csioz.gov.pl/xsd/extPL/r2"
+             xmlns:ffv13="urn:hitinn.eu:ffv13"
+             xmlns:cda="urn:hl7-org:v3"
+             xmlns:pharm="urn:ihe:pharm"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xmlns:xs="http://www.w3.org/2001/XMLSchema"
+             id="2.16.840.1.113883.3.4424.13.11.6"
+             name="KategoriaDostepnosciLeku"
+             effectiveDate="2014-06-06T00:00:00"
+             statusCode="final"
+             displayName="Kategoria dostępności leku"
+             versionLabel="0.9.9">
+         <desc language="pl-PL">Klasyfikacja recept ze względu na kategorię dostępności leku</desc>
+         <desc language="en-US">Classification of drug prescriptions according to the category of drug availability</desc>
+         <sourceCodeSystem id="2.16.840.1.113883.3.4424.11.1.25"
+                        identifierName="Kategorie dostępności leku"/>
+         <conceptList>
+            <concept code="Rp"
+                  codeSystem="2.16.840.1.113883.3.4424.11.1.25"
+                  codeSystemName="KAT_DOS_LEK"
+                  displayName="Rp"
+                  level="0"
+                  type="L"/>
+            <concept code="Rpw"
+                  codeSystem="2.16.840.1.113883.3.4424.11.1.25"
+                  codeSystemName="KAT_DOS_LEK"
+                  displayName="Rpw"
+                  level="0"
+                  type="L"/>
+            <concept code="Rpz"
+                  codeSystem="2.16.840.1.113883.3.4424.11.1.25"
+                  codeSystemName="KAT_DOS_LEK"
+                  displayName="Rpz"
+                  level="0"
+                  type="L"/>
+         </conceptList>
+      </valueSet>
+</valueSets>
